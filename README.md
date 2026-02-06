@@ -156,6 +156,10 @@ Real-world examples of the font drawn by an AxiDraw:
 
 *Finished piece — rotated text blocks plotted over a cyanotype print using `draw_wrapped_text_rotated`.*
 
+## Attribution
+
+The single-stroke font was designed and edited by [Brian Ellis](https://github.com/kitchWWW), including plotting and testing all characters on the AxiDraw. AI tools (Claude) were used to facilitate library functions, documentation, and source control.
+
 ## License
 
 MIT
