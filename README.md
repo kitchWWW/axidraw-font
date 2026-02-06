@@ -2,7 +2,14 @@
 
 A single-stroke vector font and text rendering library for the [AxiDraw](https://www.axidraw.com/) pen plotter. Includes a dual-mode plotter wrapper that can render to a real AxiDraw or to a PNG preview image.
 
-![example output](example_output_v2.png)
+<p align="center">
+  <img src="sample_1.jpg" width="350" alt="Book cover drawn with axidraw-font">
+  <img src="sample_2.jpg" width="350" alt="AxiDraw plotting text onto a cyanotype print">
+</p>
+<p align="center">
+  <img src="sample_3.jpg" width="350" alt="Finished cyanotype with rotated text grid">
+  <img src="example_output_v2.png" width="350" alt="Software preview showing multi-color text rendering">
+</p>
 
 ## Features
 
@@ -133,28 +140,6 @@ Draws text with automatic word wrapping. Returns the number of lines rendered.
 ### `draw_wrapped_text_rotated(ad, *, angle_deg, pivot_x_in, pivot_y_in, **kwargs)`
 
 Same as `draw_wrapped_text` but rotated around a pivot point.
-
-## Gallery
-
-Real-world examples of the font drawn by an AxiDraw:
-
-<p align="center">
-  <img src="sample_1.jpg" width="400" alt="Book cover drawn with axidraw-font">
-</p>
-
-*Book cover for "6-8 Weeks" — text and border drawn with this font on an AxiDraw.*
-
-<p align="center">
-  <img src="sample_2.jpg" width="400" alt="AxiDraw plotting text onto a cyanotype print">
-</p>
-
-*The AxiDraw mid-print, drawing text onto a cyanotype.*
-
-<p align="center">
-  <img src="sample_3.jpg" width="400" alt="Finished cyanotype with rotated text grid">
-</p>
-
-*Finished piece — rotated text blocks plotted over a cyanotype print using `draw_wrapped_text_rotated`.*
 
 ## Attribution
 
