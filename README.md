@@ -117,7 +117,7 @@ Each stroke is a list of `(x, y)` points where `(0,0)` is top-left and `(1,1)` i
 
 ## API Reference
 
-### **DualPlotter**`(use_device, *, out_path, dpi, page_bbox_inches, line_px)`
+### `DualPlotter(use_device, *, out_path, dpi, page_bbox_inches, line_px)`
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
@@ -128,15 +128,15 @@ Each stroke is a list of `(x, y)` points where `(0,0)` is top-left and `(1,1)` i
 
 Methods: `interactive()`, `connect()`, `moveto(x, y)`, `lineto(x, y)`, `confirmColorChange(color_name)`, `disconnect()`
 
-### **draw_text_line**`(ad, text, origin_x_in, baseline_y_in, height_in=0.5, letter_spacing_em=0.12, word_spacing_em=None, font_scale=1.0)`
+### `draw_text_line(ad, text, origin_x_in, baseline_y_in, height_in=0.5, letter_spacing_em=0.12, word_spacing_em=None, font_scale=1.0)`
 
 Draws a single line of text. All coordinates in inches.
 
-### **draw_wrapped_text**`(ad, text, origin_x_in, baseline_y_in, height_in=0.6, max_width_in=5.0, ...)`
+### `draw_wrapped_text(ad, text, origin_x_in, baseline_y_in, height_in=0.6, max_width_in=5.0, ...)`
 
 Draws text with automatic word wrapping. Returns the number of lines rendered.
 
-### **draw_wrapped_text_rotated**`(ad, *, angle_deg, pivot_x_in, pivot_y_in, **kwargs)`
+### `draw_wrapped_text_rotated(ad, *, angle_deg, pivot_x_in, pivot_y_in, **kwargs)`
 
 Same as `draw_wrapped_text` but rotated around a pivot point.
 
