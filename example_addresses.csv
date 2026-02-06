@@ -1,0 +1,5 @@
+Done,Name,Address,Line2,City State,Zip,Email,Copies
+FALSE,Jane Doe,123 Main St,Apt 4B,"Springfield, IL",62701,jane@example.com,1
+FALSE,John Smith,456 Oak Ave,,"Portland, OR",97201,john@example.com,2
+FALSE,Alice + Bob,789 Pine Rd,Suite 100,"Brooklyn, NY",11201,,1
+FALSE,Café Owner,10 Rue de Example,,"Paris, France",75001,cafe@example.com,1
