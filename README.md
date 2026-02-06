@@ -134,6 +134,28 @@ Draws text with automatic word wrapping. Returns the number of lines rendered.
 
 Same as `draw_wrapped_text` but rotated around a pivot point.
 
+## Gallery
+
+Real-world examples of the font drawn by an AxiDraw:
+
+<p align="center">
+  <img src="sample_1.jpg" width="400" alt="Book cover drawn with axidraw-font">
+</p>
+
+*Book cover for "6-8 Weeks" — text and border drawn with this font on an AxiDraw.*
+
+<p align="center">
+  <img src="sample_2.jpg" width="400" alt="AxiDraw plotting text onto a cyanotype print">
+</p>
+
+*The AxiDraw mid-print, drawing text onto a cyanotype.*
+
+<p align="center">
+  <img src="sample_3.jpg" width="400" alt="Finished cyanotype with rotated text grid">
+</p>
+
+*Finished piece — rotated text blocks plotted over a cyanotype print using `draw_wrapped_text_rotated`.*
+
 ## License
 
 MIT
