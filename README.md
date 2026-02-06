@@ -2,7 +2,7 @@
 
 A single-stroke vector font and text rendering library for the [AxiDraw](https://www.axidraw.com/) pen plotter. Includes a dual-mode plotter wrapper that can render to a real AxiDraw or to a PNG preview image.
 
-![example output](example_output.png)
+![example output](example_output.png?raw=true)
 
 ## Features
 
