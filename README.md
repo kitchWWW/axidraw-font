@@ -2,13 +2,12 @@
 
 A single-stroke vector font and text rendering library for the [AxiDraw](https://www.axidraw.com/) pen plotter. Includes a dual-mode plotter wrapper that can render to a real AxiDraw or to a PNG preview image.
 
+![example output](example_output_v2.png)
+
 <p align="center">
-  <img src="sample_1.jpg" width="350" alt="Book cover drawn with axidraw-font">
-  <img src="sample_2.jpg" width="350" alt="AxiDraw plotting text onto a cyanotype print">
-</p>
-<p align="center">
-  <img src="sample_3.jpg" width="350" alt="Finished cyanotype with rotated text grid">
-  <img src="example_output_v2.png" width="350" alt="Software preview showing multi-color text rendering">
+  <img src="sample_1.jpg" width="250" alt="Book cover drawn with axidraw-font">
+  <img src="sample_2.jpg" width="250" alt="AxiDraw plotting text onto a cyanotype print">
+  <img src="sample_3.jpg" width="250" alt="Finished cyanotype with rotated text grid">
 </p>
 
 ## Features
